@@ -14,10 +14,11 @@ while (i < 10) {
 
 // #3
 console.log("-----#3-----");
+let j = 0;
 do {
-  console.log(i);
-  i++;
-} while (i < 15);
+  console.log(j);
+  j++;
+} while (j < 15);
 
 // #4
 console.log("-----#4-----");
