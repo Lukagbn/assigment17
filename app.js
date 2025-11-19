@@ -32,32 +32,34 @@ for (let i = 0; i < numbers.length; i++) {
 // #5
 console.log("-----#5-----");
 const currentDay = new Date().getDay();
+let day;
 switch (currentDay) {
   case 0:
-    console.log("კვირა");
+    day = "კვირა";
     break;
   case 1:
-    console.log("ორშაბათი");
+    day = "ორშაბათი";
     break;
   case 2:
-    console.log("სამშაბათი");
+    day = "სამშაბათი";
     break;
   case 3:
-    console.log("ოთხშაბათი");
+    day = "ოთხშაბათი";
     break;
   case 4:
-    console.log("ხუთშაბათი");
+    day = "ხუთშაბათი";
     break;
   case 5:
-    console.log("პარასკევი");
+    day = "პარასკევი";
     break;
   case 6:
-    console.log("შაბათი");
+    day = "შაბათი";
     break;
   default:
-    console.log("შეცდომა!");
+    day = "შეცდომა!";
     break;
 }
+console.log(day);
 
 // #6
 const data = {
